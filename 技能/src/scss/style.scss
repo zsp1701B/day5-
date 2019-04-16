@@ -1,0 +1,66 @@
+@import "common.scss";
+@import "_mixin.scss";
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: skyblue;
+    input {
+        width: 80%;
+        height: px2rem(40px);
+        background: #ffff;
+        color: #ccc;
+        line-height: px2rem(40px);
+        border: 1px solid #ccc;
+        border-radius: px2rem(5px);
+    }
+    #txt {
+        margin-top: px2rem(180px);
+        margin-left: px2rem(40px);
+        text-indent: px2rem(10px);
+        margin-bottom: px2rem(10px)
+    }
+    #pwd {
+        margin-left: px2rem(40px);
+        text-indent: px2rem(10px);
+    }
+    .cont {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: px2rem(50px);
+        margin-left: px2rem(40px);
+        span {
+            color: #666;
+            font-size: px2rem(16px);
+            text-align: center;
+            line-height: px2rem(50px)
+        }
+    }
+    button {
+        width: 80%;
+        height: px2rem(40px);
+        background: blue;
+        color: #ffff;
+        font-size: px2rem(15px);
+        text-align: center;
+        line-height: px2rem(40px);
+        margin-left: px2rem(40px);
+        border-radius: px2rem(8px);
+        border: 0;
+        outline: 0;
+    }
+    .word {
+        width: 80%;
+        height: px2rem(40px);
+        margin-left: px2rem(40px);
+        text-align: center;
+        line-height: px2rem(40px);
+        font-size: px2rem(14px);
+        margin-top: px2rem(10px);
+        span {
+            color: #666;
+        }
+    }
+}
